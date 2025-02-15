@@ -1,0 +1,50 @@
+@import 'src/index.css';
+
+@layer components {
+  .card {
+    @apply h-72 w-72 border shadow-lg rounded-xl text-sm p-2 transition-transform duration-300 ease-in-out;
+
+    /* Initial state */
+    transform: scale(1); /* Default size */
+
+    /* Hover state */
+    &:hover {
+      transform: scale(1.05); /* Slightly increase the size on hover */
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a stronger shadow */
+    }
+  }
+
+  .text-header {
+    @apply text-3xl font-bold text-headerColor my-3;
+  }
+
+  .subtext-header {
+    @apply text-sm font-thin my-3;
+  }
+
+  .feature-card {
+    @apply h-20 w-72 border shadow-lg rounded-xl font-bold content-center text-sm p-2 transition-transform duration-300 ease-in-out;
+
+    /* Initial state */
+    transform: scale(1); /* Default size */
+
+    /* Hover state */
+    &:hover {
+      transform: scale(1.05); /* Slightly increase the size on hover */
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a stronger shadow */
+    }
+  }
+}
+
+.logo {
+  height: 2rem;
+  width: 2rem;
+  padding: 2rem;
+  object-fit: contain;
+  background-image: linear-gradient(to bottom, #fee7bd, #fcb958);
+}
+
+.socials {
+  height: 2rem;
+  width: 2rem;
+}

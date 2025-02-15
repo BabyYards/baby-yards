@@ -1,0 +1,27 @@
+:root {
+  --primay: black;
+  --bg-primay: white;
+  --link: #2a0b0b;
+}
+
+$color-purple: #9065b0;
+$color-black: #141414;
+$color-blue: #074ee8;
+$color-gray: #c4c4c4;
+$color-light-gray: #d7d7d7;
+$color-green: #008137;
+$color-light-green: 89DDAD;
+$color-red: #d4080e;
+$color-dark-gray: #828282;
+
+// Border
+$brd-grey: #b9b9b9;
+
+.my-theme-overrides {
+  font-family: sans-serif;
+  color: white;
+}
+
+.my-theme-overrides .str-video__speaker-layout__wrapper {
+  color: white;
+}
